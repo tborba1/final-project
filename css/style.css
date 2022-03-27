@@ -1,5 +1,4 @@
 body {
-    /*background-image: url("/DAY08/images/jj-ying-WmnsGyaFnCQ-unsplash.jpg"); /*alt tag="Photo by JJ Ying via Unsplash"*/
     background-image: linear-gradient(whitesmoke, lightgrey);
     font-family: 'Mukta', sans-serif;
 }
@@ -8,6 +7,24 @@ header {
     border-radius: 10px;
     text-align: center;
     margin-bottom: 10px;
+} 
+.hero {
+    /* background-color: #71a674; */
+    background-image: url(/final-project/images/hero_sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: bottom left;
+    background-size: cover;
+    /* max-width: 100%;
+    max-height: 500px; */
+}
+.hero h3 {
+    text-align: right;
+    font-style: italic;
+}
+.hero h1 {
+    text-align: right;
+    color: #71a674;
 }
 nav {
     background-color: #496f51;
