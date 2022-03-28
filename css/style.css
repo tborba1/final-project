@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(whitesmoke, lightgrey);
+    /* background-image: linear-gradient(whitesmoke, lightgrey); */
+    background-image: url(/final-project/images/background_henry-co--odUkx8C2gg-unsplash.jpg);
     font-family: 'Mukta', sans-serif;
 }
 header {
@@ -7,16 +8,14 @@ header {
     border-radius: 10px;
     text-align: center;
     margin-bottom: 10px;
+    background-color: whitesmoke;
 } 
 .hero {
-    /* background-color: #71a674; */
     background-image: url(/final-project/images/hero_sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
     height: 600px;
     width: 100%;
     background-position: bottom left;
     background-size: cover;
-    /* max-width: 100%;
-    max-height: 500px; */
 }
 .hero h3 {
     text-align: right;
@@ -67,15 +66,17 @@ section {
     width: 50%; /*fixed to % instead of px to adjust sizing*/
     margin-bottom: 10px;
     border-radius: 10px;
+    background-color: whitesmoke;
 }
 article {
     border: 2px solid grey;
     float: left;
-    /* height: 175px; */
+    /* height: 175px; */ /*removed height to allow contents to fit as needed*/
     width: 95%; /*fixed to % instead of px to adjust sizing*/
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 10px;
+    background-color: lightgrey;
 }
 article li{
     text-align: left;
@@ -85,14 +86,19 @@ aside {
     border: 2px solid grey;
     text-align: center;
     float: right;
-    height: 200px;
+    /* height: 200px; */ /*removed height to allow contents to fit as needed*/
     width: 49%; /*fixed to % instead of px to adjust sizing*/
     border-radius: 10px;
     margin-bottom: 10px;
+    background-color: whitesmoke;
 }
 aside li{
     text-align: left;
     list-style-type: circle;
+}
+iframe {
+    border: 1px solid grey;
+    border-radius: 10px;
 }
 footer {
     clear: both;
