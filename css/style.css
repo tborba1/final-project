@@ -45,6 +45,7 @@ nav li {
 nav li a:hover {
     text-decoration: none;
     background-color: #71a674;
+    padding: 2px;
 } /*For the nav links to turn color on the hover*/
 nav li a:visited {
     color: black;
@@ -120,11 +121,7 @@ a:hover {
     text-decoration: none;
     background-color: #71a674;
 } /*For the body links to turn color on the hover*/
-h1 {
-    font-family: 'Mitr', sans-serif;
-    font-variant: small-caps;
-}
-h2 {
+h1, h2 {
     font-family: 'Mitr', sans-serif;
     font-variant: small-caps;
 }
