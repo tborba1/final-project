@@ -1,24 +1,25 @@
 body {
-    /* background-image: linear-gradient(whitesmoke, lightgrey); */
     background-image: url(/final-project/images/background_henry-co--odUkx8C2gg-unsplash.jpg);
     font-family: 'Mukta', sans-serif;
 }
 .header-home {
-    /* border: 2px solid grey; */
     border-radius: 10px;
     text-align: center;
     margin-bottom: 10px;
-    background-color: #71a674;
+    background-color: #496f51;
+    color: white;
 } 
 .header-others {
     border-radius: 10px;
     text-align: center;
-    margin-bottom: 10px;    
-    background-image: linear-gradient(whitesmoke, #71a674, #496f51);
+    margin-bottom: 10px;
+    background-color: #496f51;
+    color: white;
 }
 .hero {
     background-image: url(/final-project/images/hero_sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
-    height: 600px;
+    border-radius: 10px;
+    height: 100vh;
     width: 100%;
     background-position: bottom left;
     background-size: cover;
@@ -50,6 +51,7 @@ nav li {
     text-decoration: none;
     font-family: 'Mitr', sans-serif;
     font-variant: small-caps;
+    color: white;
 }
 nav li a:hover {
     text-decoration: none;
@@ -57,7 +59,7 @@ nav li a:hover {
     padding: 2px;
 } 
 nav li a:visited {
-    color: black;
+    color: white;
 } 
 nav a.logo img {
     border: 2px solid;
@@ -69,24 +71,22 @@ nav a.logo img {
     margin-left: -20px; /*to adjust logo image*/
 } 
 section {
-    border: 2px solid grey;
     text-align: center;
     float: left;
-    /* height: 450px; */
-    width: 50%; /*fixed to % instead of px to adjust sizing*/
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: whitesmoke;
+    width: 100%;
+}
+section h1 {
+    color: #466f4f;
+}
+section h2 {
+    color: #466f4f;
 }
 article {
-    border: 2px solid grey;
     float: left;
-    /* height: 175px; */ /*removed height to allow contents to fit as needed*/
-    width: 95%; /*fixed to % instead of px to adjust sizing*/
-    margin-bottom: 10px;
-    margin-left: 10px;
+    width: 45%;
+    margin: 20px;
     border-radius: 10px;
-    background-color: lightgrey;
+    background-color: whitesmoke;
 }
 article li{
     text-align: left;
@@ -95,11 +95,8 @@ article li{
 aside {
     border: 2px solid grey;
     text-align: center;
-    float: right;
-    /* height: 200px; */ /*removed height to allow contents to fit as needed*/
     width: 49%; /*fixed to % instead of px to adjust sizing*/
     border-radius: 10px;
-    margin-bottom: 10px;
     background-color: whitesmoke;
 }
 aside li{
@@ -113,8 +110,8 @@ iframe {
 footer {
     clear: both;
     border-top: 2px solid grey;
-    /* border-radius: 10px;
-    text-align: center; */
+    color: #496f51;
+    font-weight: bold;
 }
 footer a {
     color: black;
@@ -165,7 +162,7 @@ form input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-family: 'Mutka', sans-serif;
+    font-family: 'Mukta', sans-serif;
     display: block; /*to center the submit button*/
     margin: auto; /*to center the submit button*/
 }
@@ -179,6 +176,7 @@ form input[type=submit]:hover {
     width: 40%;
     margin-bottom: 10px;
     margin: auto;
+    color: white;
 }
 
 /* 
