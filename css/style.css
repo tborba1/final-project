@@ -44,6 +44,8 @@ nav {
     position: sticky;
     top: 1px;
     text-align: right;
+}
+a:link {
     color: white;
 }
 nav li {
