@@ -45,9 +45,6 @@ nav {
     top: 1px;
     text-align: right;
 }
-a:link {
-    color: white;
-}
 nav li {
     display: inline;
     margin-right: 10px;
@@ -61,6 +58,9 @@ nav li a:hover {
     background-color: #71a674;
     padding: 2px;
 } 
+nav li a:link {
+    color: white;
+}
 nav li a:visited {
     color: white;
 } 
